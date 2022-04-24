@@ -14,5 +14,5 @@ spec:
         name: jetstack
         namespace: flux-system
   values:
-  replicaCount: 2
-  installCRDs: true
+    replicaCount: 2
+    installCRDs: true
