@@ -7,9 +7,9 @@ spec:
   interval: 2m0s
   secretRef: 
     name: mysecret
+  url: https://github.com/hasnain28/minikube
   ref:
     branch: main
-  url: https://github.com/hasnain28/minikube
 
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
