@@ -4,15 +4,16 @@ metadata:
   name: angular
   namespace: angular
 spec:
+  ingressClassName: nginx
   rules:
-  - host: "app.mhasnain.dev"
+  - host: app.mhasnain.dev
     http:
       paths:
       - pathType: Prefix
         path: "/"
         backend:
           service:
-            name: service1
+            name: angular
             port:
               number: 80
   
