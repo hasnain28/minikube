@@ -2,6 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: angular
+  namespace: angular
 spec:
   rules:
   - host: "app.mhasnain.dev"
