@@ -3,7 +3,8 @@ kind: Ingress
 metadata:
   name: angular
   namespace: angular
-  annotations: stagging-cluster-issuer
+  annotations: 
+    cert-manager.io/cluster-issuer: stagging-cluster-issuer 
 spec:
   ingressClassName: nginx
   rules:
