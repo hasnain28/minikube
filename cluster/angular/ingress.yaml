@@ -3,6 +3,7 @@ kind: Ingress
 metadata:
   name: angular
   namespace: angular
+  annotations: stagging-cluster-issuer
 spec:
   ingressClassName: nginx
   rules:
