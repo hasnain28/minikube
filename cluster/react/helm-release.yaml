@@ -1,8 +1,8 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: angular
-  namespace: angular
+  name: react
+  namespace: react
 spec:
   interval: 2m
   chart:
